@@ -1,0 +1,9 @@
+*.exe
+*.dll
+*.pyd
+*.pyc
+__pycache__/
+activation.json
+activation-signing-key.json
+.env
+.env.*
