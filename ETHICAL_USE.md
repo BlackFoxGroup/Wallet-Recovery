@@ -1,53 +1,71 @@
 # Ethical Use, Privacy, and User Responsibility
 
+This document describes the intended use and privacy behavior of Wallet Recovery. The same guidance is provided in English, Persian, Russian, and Simplified Chinese.
+
 ## English
 
-Wallet Recovery is intended to help rightful owners regain access to their own digital assets after forgetting or misplacing some recovery phrase words. Use it only for a wallet you own or are explicitly authorized by its owner to recover.
+Wallet Recovery is intended to help a rightful owner regain access to their own wallet after forgetting some recovery words or their order. Use it only for a wallet you own or are explicitly authorized by its owner to recover.
 
 ### Privacy and security
+Recovery phrases, passphrases, and private keys are processed on your device and are not sent to Black Fox Group/FoxNext servers through the recovery workflow. If network checks are enabled, derived **public addresses** are sent to the RPC or explorer provider you selected; that provider processes requests under its own privacy policy. The website activation flow sends the Device ID and transaction ID (TX ID) to FoxNext for payment and activation verification. Never enter wallet secrets into the activation form or send them to support.
 
-We at Wallet Recovery take your security and privacy seriously. The software is designed to process sensitive wallet recovery information on your own computer, so you do not need to send your recovery words to us or anyone else to use the recovery features.
-
-- Sensitive recovery information is processed on your own system.
-- The application does not send your recovery phrase, seed, passphrase, or private key to Black Fox Group or FoxNext servers, and these secrets are not stored on our servers.
-- The goal is to provide recovery tools without requiring you to disclose your recovery words.
-- Keep control of your confidential wallet information at all times.
-
-Your recovery words are the keys to your digital assets. Never send them to anyone, including support staff. Wallet Recovery is designed to help you, not to collect or disclose your confidential wallet information.
-
-**Network and activation details:** If you enable balance, token, activity, or other network checks, the app sends derived **public wallet addresses** to the RPC or explorer service configured or selected for those checks. When you use the website activation flow, your Device ID and transaction ID (TX ID) are submitted to FoxNext for activation/payment verification. Do not enter recovery words, a seed, a passphrase, or a private key into the activation form or send them to support. Check the privacy information for the current app version and the relevant service providers.
+Your recovery words are keys to your digital assets. Keep them private. Do not post recovery information in GitHub issues, chats, or support requests.
 
 ### Ethical use and responsibility
+Do not use the software to access another person's wallet or to obtain, disclose, or misuse another person's recovery phrase, passphrase, or private key. Users are responsible for obtaining permission, following applicable laws, and protecting their information. Black Fox Group promotes ethical use and respect for privacy and ownership. This statement explains intended use and does not replace the user's responsibility to act lawfully and ethically.
 
-Use recovery tools only for wallets and assets you own, or for which you have explicit permission from the owner. Never use the software to access someone else's wallet or to obtain, disclose, or misuse another person's recovery phrase, seed, passphrase, or private key.
-
-Users are responsible for obtaining permission, complying with applicable laws, using the software ethically, and safeguarding their own information. Black Fox Group promotes ethical use and respects privacy and ownership. This statement describes the intended use; it does not replace the user's responsibility to act lawfully and ethically.
-
-Official website: <https://foxnext.net/>
-
----
+### Official links
+- Website: https://foxnext.net/en/
+- Wallet Recovery: https://foxnext.net/en/wallet-recovery.html
+- Downloads: https://foxnext.net/en/download.html
 
 ## فارسی
 
-Wallet Recovery با هدف کمک به مالک واقعی برای بازیابی دسترسی به دارایی‌های خودش طراحی شده است؛ برای نمونه، زمانی که بخشی از واژه‌های عبارت بازیابی را فراموش کرده یا جای آن‌ها را به خاطر ندارد. از برنامه فقط برای کیف پول خودتان یا کیف پولی استفاده کنید که مالک آن صریحاً اجازهٔ بازیابی‌اش را به شما داده باشد.
+Wallet Recovery برای کمک به مالک واقعی طراحی شده است تا پس از فراموش‌کردن بعضی واژه‌های عبارت بازیابی یا ترتیب آن‌ها، دسترسی به کیف پول خودش را بازیابد. فقط برای کیف پول خودتان یا کیف پولی استفاده کنید که مالک آن صریحاً اجازهٔ بازیابی‌اش را به شما داده است.
 
 ### حریم خصوصی و امنیت
+عبارت بازیابی، گذرواژه و کلید خصوصی در روند بازیابی روی دستگاه شما پردازش می‌شوند و از طریق این روند به سرورهای Black Fox Group/FoxNext ارسال نمی‌شوند. اگر بررسی شبکه را فعال کنید، نشانی‌های **عمومی** مشتق‌شده برای ارائه‌دهندهٔ RPC یا کاوشگری که انتخاب کرده‌اید ارسال می‌شوند و آن ارائه‌دهنده درخواست‌ها را طبق سیاست حریم خصوصی خودش پردازش می‌کند. در فرایند فعال‌سازی وب‌سایت، شناسهٔ دستگاه (Device ID) و شناسهٔ تراکنش (TX ID) برای بررسی پرداخت و فعال‌سازی به FoxNext ارسال می‌شود. اطلاعات محرمانهٔ کیف پول را در فرم فعال‌سازی وارد نکنید و برای پشتیبانی نفرستید.
 
-ما در Wallet Recovery امنیت و حریم خصوصی شما را جدی می‌گیریم. این نرم‌افزار با هدف پردازش اطلاعات حساس کیف پول روی دستگاه شخصی شما طراحی شده است؛ به‌گونه‌ای که برای استفاده از قابلیت‌های بازیابی نیازی به ارسال کلمات بازیابی خود برای ما یا اشخاص دیگر نداشته باشید.
+کلمات بازیابی، کلید دسترسی به دارایی‌های دیجیتال شما هستند؛ آن‌ها را محرمانه نگه دارید. اطلاعات بازیابی را در Issueهای گیت‌هاب، گفتگوها یا درخواست‌های پشتیبانی منتشر نکنید.
 
-- اطلاعات حساس بازیابی روی سیستم خودتان پردازش می‌شود.
-- برنامه عبارت بازیابی، Seed، گذرواژهٔ آن یا کلید خصوصی شما را به سرورهای Black Fox Group یا FoxNext ارسال نمی‌کند و این اسرار روی سرورهای ما ذخیره نمی‌شوند.
-- هدف، فراهم کردن ابزار بازیابی بدون نیاز به افشای کلمات بازیابی شماست.
-- کنترل اطلاعات محرمانهٔ کیف پول خود را همواره حفظ کنید.
+### استفادهٔ اخلاقی و مسئولیت
+از برنامه برای دسترسی به کیف پول دیگران یا به‌دست‌آوردن، افشا یا سوءاستفاده از عبارت بازیابی، گذرواژه یا کلید خصوصی دیگران استفاده نکنید. گرفتن مجوز، رعایت قوانین قابل‌اجرا و حفاظت از اطلاعات بر عهدهٔ کاربر است. Black Fox Group استفادهٔ اخلاقی و احترام به حریم خصوصی و مالکیت را ترویج می‌کند. این متن هدف استفاده را توضیح می‌دهد و مسئولیت رفتار قانونی و اخلاقی را از کاربر سلب نمی‌کند.
 
-کلمات بازیابی شما کلید دسترسی به دارایی‌های دیجیتال شما هستند. هرگز آن‌ها را برای هیچ شخصی، حتی تیم پشتیبانی، ارسال نکنید. Wallet Recovery برای کمک به شما طراحی شده است، نه برای دریافت یا افشای اطلاعات محرمانهٔ کیف پولتان.
+### پیوندهای رسمی
+- وب‌سایت: https://foxnext.net/fa/
+- Wallet Recovery: https://foxnext.net/fa/wallet-recovery.html
+- دانلودها: https://foxnext.net/fa/download.html
 
-**جزئیات شبکه و فعال‌سازی:** اگر بررسی موجودی، توکن، فعالیت یا بررسی‌های دیگر شبکه را فعال کنید، برنامه نشانی‌های **عمومی** مشتق‌شده از کیف پول را برای سرویس RPC یا کاوشگری که برای این بررسی‌ها تنظیم یا انتخاب کرده‌اید می‌فرستد. هنگام استفاده از فرایند فعال‌سازی وب‌سایت، شناسهٔ دستگاه (Device ID) و شناسهٔ تراکنش (TX ID) برای بررسی پرداخت و فعال‌سازی به FoxNext ارسال می‌شود. عبارت بازیابی، Seed، گذرواژه یا کلید خصوصی را در فرم فعال‌سازی وارد نکنید و برای پشتیبانی نفرستید. اطلاعات حریم خصوصی نسخهٔ فعلی برنامه و سرویس‌های مربوطه را بررسی کنید.
+## Русский
 
-### استفادهٔ اخلاقی و مسئولیت کاربر
+Wallet Recovery предназначена для помощи законному владельцу в восстановлении доступа к своему кошельку, если он забыл некоторые слова фразы восстановления или их порядок. Используйте программу только для своего кошелька либо с явного разрешения его владельца.
 
-از ابزار بازیابی فقط برای کیف پول و دارایی‌ای استفاده کنید که متعلق به خودتان است یا مالک آن صریحاً به شما اجازه داده است. هرگز از برنامه برای دسترسی به کیف پول دیگران یا به‌دست‌آوردن، افشا یا سوءاستفاده از عبارت بازیابی، Seed، گذرواژه یا کلید خصوصی دیگران استفاده نکنید.
+### Конфиденциальность и безопасность
+Фраза восстановления, парольная фраза и приватный ключ обрабатываются на вашем устройстве и не отправляются на серверы Black Fox Group/FoxNext через процесс восстановления. Если включить сетевые проверки, производные **публичные адреса** передаются выбранному вами RPC-провайдеру или обозревателю; поставщик обрабатывает запросы согласно своей политике конфиденциальности. При активации через сайт Device ID и идентификатор транзакции (TX ID) отправляются FoxNext для проверки платежа и активации. Не вводите секретные данные кошелька в форму активации и не отправляйте их службе поддержки.
 
-گرفتن مجوز لازم، رعایت قوانین قابل‌اجرا، استفادهٔ اخلاقی از نرم‌افزار و محافظت از اطلاعات بر عهدهٔ کاربر است. Black Fox Group رعایت اصول اخلاقی و احترام به حریم خصوصی و مالکیت افراد را ترویج می‌کند. این متن هدف استفاده از برنامه را بیان می‌کند و مسئولیت کاربر برای رفتار قانونی و اخلاقی را جایگزین نمی‌کند.
+Слова восстановления дают доступ к вашим цифровым активам. Храните их в тайне и не публикуйте сведения для восстановления в GitHub issues, чатах или обращениях в поддержку.
 
-وب‌سایت رسمی: <https://foxnext.net/>
+### Этичное использование и ответственность
+Не используйте программу для доступа к чужому кошельку, получения, раскрытия или неправомерного использования чужой фразы восстановления, парольной фразы или приватного ключа. Пользователь отвечает за получение разрешения, соблюдение применимых законов и защиту своих данных. Black Fox Group поддерживает этичное использование и уважение к конфиденциальности и праву собственности. Этот текст описывает назначение программы и не снимает с пользователя ответственность за законные и этичные действия.
+
+### Официальные ссылки
+- Сайт: https://foxnext.net/ru/
+- Wallet Recovery: https://foxnext.net/ru/wallet-recovery.html
+- Загрузки: https://foxnext.net/ru/download.html
+
+## 简体中文
+
+Wallet Recovery 旨在帮助合法所有者找回自己的钱包；例如，忘记了部分助记词或助记词顺序时。仅可用于您自己的钱包，或已获得钱包所有者明确授权的钱包。
+
+### 隐私与安全
+恢复流程会在您的设备上处理助记词、额外密码和私钥，不会通过恢复流程将这些信息发送到 Black Fox Group/FoxNext 服务器。如果启用网络查询，派生出的**公用地址**会发送给您选择的 RPC 服务或区块浏览器；服务提供商会按照其隐私政策处理请求。使用网站激活流程时，Device ID 和交易 ID（TX ID）会提交给 FoxNext，用于付款核验和激活。请勿在激活表单中输入钱包机密信息，也不要将其发送给客服。
+
+助记词是访问您数字资产的凭据。请妥善保密，不要在 GitHub issue、聊天或支持请求中发布恢复信息。
+
+### 道德使用与责任
+不得使用本软件访问他人的钱包，也不得获取、披露或滥用他人的助记词、额外密码或私钥。用户有责任取得授权、遵守适用法律并保护自己的信息。Black Fox Group 倡导合乎道德的使用方式，并尊重隐私与所有权。本声明说明软件的预期用途，但不免除用户依法、合乎道德行事的责任。
+
+### 官方链接
+- 网站：https://foxnext.net/zh/
+- Wallet Recovery：https://foxnext.net/zh/wallet-recovery.html
+- 下载页面：https://foxnext.net/zh/download.html
